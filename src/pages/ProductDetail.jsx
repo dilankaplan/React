@@ -23,6 +23,7 @@ export default function ProductDetail() {
                             src='/images/avatar/large/molly.png'
                         />
                         <Card.Header>{product.productName}</Card.Header>
+                        <Card.Header>{product.category.categoryName}</Card.Header>
                         <Card.Meta>New User</Card.Meta>
                         <Card.Description>
                             Molly wants to add you to the group <strong>musicians</strong>
